@@ -1,58 +1,111 @@
-# Block Land - Short Overview
+# 🎮 BlockLand
 
-Block Land is a pixel-platformer built with Phaser + TypeScript.
+**BlockLand** is a fast-paced 2D pixel platformer built using **Phaser + TypeScript + Vite**.  
+Jump, dodge, and explore a vibrant blocky world full of challenges!
 
-## Core Gameplay
+---
 
-- Run, jump, and navigate platform layouts.
-- Collect coins and avoid hazards.
-- Defeat enemies by stomping from above.
-- Reach the flag to finish a level.
+## ✨ Features
 
-## Progression
+- 🕹️ Smooth platformer gameplay
+- 🪙 Coin collection system
+- ⚠️ Hazards and enemy mechanics
+- 🎯 Level progression system
+- 👤 Character unlocks
+- 💾 Persistent save system
 
-- Levels unlock in order after completion.
-- Replay is supported for previously unlocked levels.
-- Progress never goes backward if you replay older stages.
+---
 
-## Levels (Current)
+## 🎮 Core Gameplay
 
-- Level 1: Greenhill (intro difficulty, water-themed pools)
-- Level 2: Dustlands (medium, lava hazards)
-- Level 3: Crystal Cave (hard, denser hazards and enemies)
+- Run, jump, and navigate platform layouts  
+- Collect coins and avoid hazards  
+- Defeat enemies by stomping from above  
+- Reach the flag to complete levels  
 
-## Characters and Unlocks
+---
 
-- Character selection is in the menu Heroes panel.
-- New characters unlock by total coin milestones.
-- Selected character and unlocks are saved.
+## 🗺️ Levels
 
-## Main Menu
+- **Level 1: Greenhill**  
+  _Intro difficulty with water-themed pools_
 
-- Game-style animated hub with two cards:
-  - Play: opens level selection
-  - Heroes: opens character selection/unlock panel
-- Level cards show state:
-  - DONE: completed
-  - PLAY: currently available
-  - LOCK: not yet unlocked
+- **Level 2: Dustlands**  
+  _Medium difficulty with lava hazards_
 
-## Save Data
+- **Level 3: Crystal Cave**  
+  _Hard difficulty with dense enemies and traps_
 
-- Persistent save includes:
-  - total coins
-  - highest unlocked level
-  - unlocked characters
-  - selected character
+---
 
-## Controls
+## 🔓 Progression System
 
-- Move: Left / Right
-- Jump: Space or Up
-- Run: Shift
+- Levels unlock sequentially  
+- Replay unlocked levels anytime  
+- Progress is always saved (no rollback)
 
-## Tech Stack
+---
 
-- Phaser
-- TypeScript
-- Vite
+## 👤 Characters & Unlocks
+
+- Access via **Heroes Panel**
+- Unlock characters using coin milestones
+- Selected character is saved automatically
+
+---
+
+## 🏠 Main Menu
+
+- Interactive game-style UI
+- Two main sections:
+  - ▶️ **Play** → Level selection
+  - 👤 **Heroes** → Character selection
+
+### Level States:
+- ✅ DONE → Completed  
+- 🎮 PLAY → Available  
+- 🔒 LOCK → Locked  
+
+---
+
+## 💾 Save Data
+
+Game automatically saves:
+
+- Total coins  
+- Highest unlocked level  
+- Unlocked characters  
+- Selected character  
+
+---
+
+## 🎮 Controls
+
+| Action | Key |
+|------|-----|
+| Move | Left / Right Arrow |
+| Jump | Space / Up Arrow |
+| Run | Shift |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Phaser**
+- **TypeScript**
+- **Vite**
+
+---
+
+## ⚙️ Setup & Run
+
+```bash
+npm install
+npm run dev
+```
+
+## 🎯 Future Improvements
+Sound effects & background music 🎵
+More levels & worlds 🌍
+Boss fights 👾
+Mobile support 📱
