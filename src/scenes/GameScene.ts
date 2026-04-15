@@ -77,6 +77,8 @@ export class GameScene extends Phaser.Scene {
 
     // Physics world bounds match level size
     this.physics.world.setBounds(0, 0, config.worldWidth, config.worldHeight);
+    // Set gravity for player to fall
+    this.physics.world.gravity.y = 900;
 
     // Initialize audio before creating Player; Player methods call audio hooks.
     this.audio = new AudioSystem();

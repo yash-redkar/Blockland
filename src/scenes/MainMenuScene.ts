@@ -394,10 +394,10 @@ export class MainMenuScene extends Phaser.Scene {
       const sub = this.add
         .text(0, 8, spec.sub, {
           fontFamily: '"Courier New", Courier, monospace',
-          fontSize: "8px",
+          fontSize: "10px",
           fontStyle: "bold",
           color: MENU_COLORS.cardSub,
-          letterSpacing: 0,
+          letterSpacing: 1,
         })
         .setOrigin(0.5);
 
